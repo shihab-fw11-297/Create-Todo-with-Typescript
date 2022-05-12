@@ -81,6 +81,8 @@
   
   .todos__single {
     display: flex;
+    width: 29%;
+    margin-left: 10px;
     border-radius: 5px;
     padding: 20px;
     margin-top: 15px;
@@ -131,5 +133,9 @@
     .todos {
       width: 95%;
       margin-bottom: 10px;
+    }
+    .todos__single {
+      width: 90%;
+      margin-right: 10px;
     }
   }
